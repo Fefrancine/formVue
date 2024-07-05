@@ -50,6 +50,8 @@ const enviarInfo = ref(true)
 
 <template>
   <main>
-    <form action=""></form>
+    <form v-if="enviar">
+      <h1>Novo cadastro</h1>
+    </form>
   </main>
 </template>
