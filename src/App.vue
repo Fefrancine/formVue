@@ -50,6 +50,6 @@ const enviarInfo = ref(true)
 
 <template>
   <main>
-
+    <form action=""></form>
   </main>
 </template>
